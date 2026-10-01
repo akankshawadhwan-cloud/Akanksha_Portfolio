@@ -5,7 +5,7 @@ import FadeIn from "./FadeIn";
 const stats = [
   { value: "4+", label: "Years of\nCustomer Experience" },
   { value: "3", label: "Marketing\nProjects" },
-  { value: "AMA", label: "Active Member\nAmerican Marketing Association" },
+  { value: "2026", label: "Social Media & Video\nIntern · RetroSynth Records" },
   { value: "2026", label: "BBA Marketing\nGeorgia State University" },
 ];
 
@@ -41,40 +41,53 @@ export default function About() {
               </h2>
             </FadeIn>
 
-            <FadeIn delay={0.2}>
-              <p
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-                className="text-[#7a7a7a] leading-relaxed mb-5 font-light text-base"
-              >
-                I&apos;m a fourth-year Marketing student at Georgia State University&apos;s
-                J. Mack Robinson College of Business. I genuinely believe great marketing
-                starts with understanding people: what they need, what they care about,
-                and what actually moves them to act.
-              </p>
-            </FadeIn>
+                      <FadeIn delay={0.2}>
+            <p
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+              className="text-[#7a7a7a] leading-relaxed mb-5 font-light text-base"
+            >
+              Hi, I&apos;m Akanksha! I&apos;m a Marketing graduate from Georgia State
+              University with experience in digital marketing, social media, content
+              creation, and marketing analytics.
+            </p>
+          </FadeIn>
 
-            <FadeIn delay={0.3}>
-              <p
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-                className="text-[#7a7a7a] leading-relaxed mb-5 font-light text-base"
-              >
-                My projects have taken me across social media strategy, consumer research,
-                and business analytics. Each one pushed me to think creatively and back it
-                up with real data. I like finding the story inside the numbers and figuring
-                out how to tell it in a way that actually lands.
-              </p>
-            </FadeIn>
+          <FadeIn delay={0.3}>
+            <p
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+              className="text-[#7a7a7a] leading-relaxed mb-5 font-light text-base"
+            >
+              I enjoy both the creative and technical sides of marketing, whether
+              I&apos;m building and scheduling social content, analyzing performance,
+              researching audiences, working with data, or finding ways to make a
+              campaign more effective. Through my coursework and hands-on experience,
+              I&apos;ve worked with tools like Canva, CapCut, Excel, SEMrush, and social
+              media management platforms while developing skills in content strategy,
+              marketing research, campaign planning, and analytics.
+            </p>
+          </FadeIn>
 
-            <FadeIn delay={0.4}>
-              <p
-                style={{ fontFamily: "var(--font-dm-sans)" }}
-                className="text-[#7a7a7a] leading-relaxed font-light text-base"
-              >
-                Outside of school, four years at Phenix Salon Suites taught me
-                a lot about what it means to build client relationships and represent
-                a brand in person. That experience made me a better marketer.
-              </p>
-            </FadeIn>
+          <FadeIn delay={0.4}>
+            <p
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+              className="text-[#7a7a7a] leading-relaxed mb-5 font-light text-base"
+            >
+              I&apos;m currently looking for opportunities in marketing coordination,
+              digital marketing, social media, content, and related roles where I can
+              continue building my skills and contribute to a team.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.5}>
+            <p
+              style={{ fontFamily: "var(--font-dm-sans)" }}
+              className="text-[#7a7a7a] leading-relaxed font-light text-base"
+            >
+              Outside of marketing, I&apos;m a huge music fan and concert-goer, a
+              self-taught guitarist, and someone who&apos;s probably always discovering
+              a new artist or finding something creative to work on.
+            </p>
+          </FadeIn>
           </div>
 
           {/* Right: stat cards */}
