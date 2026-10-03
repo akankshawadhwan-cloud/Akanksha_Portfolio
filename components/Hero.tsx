@@ -52,8 +52,8 @@ export default function Hero() {
             style={{ fontFamily: "var(--font-dm-sans)" }}
             className="text-[#7a7a7a] text-lg leading-relaxed max-w-md font-light"
           >
-            Marketing student who loves brand storytelling, building social
-            media campaigns, and figuring out what makes people tick.
+            Marketing professional passionate about digital strategy, 
+            content creation, and turning insights into impactful campaigns.
           </motion.p>
 
           <motion.div
